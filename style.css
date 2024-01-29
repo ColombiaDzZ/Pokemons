@@ -21,7 +21,7 @@ body{
     background-color: rgb(255, 170, 0);
     padding: 20px 0;
     width: 110%;
-    height: 80px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ body{
     font-weight: bolder;
     font-size: 15px;
     font-family: 'lexend';
-   text-decoration: solid;
+    text-decoration: solid;
 }
 
 .pokemons{
@@ -59,4 +59,10 @@ body{
     height: 100px;
     margin-top: -10px;
     top: 60px;
+}
+
+.link{
+    width: 100px;
+    right: 1px;
+    position: center;
 }
