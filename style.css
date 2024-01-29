@@ -1,0 +1,62 @@
+@keyframes animacao{
+    0% {background-color: rgb(255, 170, 0);}
+    10% {background-color: rgb(0, 81, 255);}
+    20% {background-color: rgb(255, 170, 0);}
+    30% {background-color: rgb(0, 81, 255);}
+    40% {background-color: rgb(255, 170, 0);}
+    50% {background-color: rgb(0, 81, 255);}
+    60% {background-color: rgb(255, 170, 0);}
+    70% {background-color: rgb(0, 81, 255);}
+    80% {background-color: rgb(255, 170, 0);}
+    90% {background-color: rgb(0, 81, 255);}
+    100% {background-color: rgb(255, 170, 0);}
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 81, 255);
+}
+
+.logo{
+    background-color: rgb(255, 170, 0);
+    padding: 20px 0;
+    width: 110%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 6px solid rgb(0, 81, 255);
+    animation-name: animacao;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.titule{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'lexend';
+}
+
+.topicos{
+    color: rgb(255, 170, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.lines{
+    border-bottom: 4px solid rgb(0, 81, 255);
+}
+
+.text{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'lexend';
+   text-decoration: solid;
+}
+
+.pokemons{
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    top: 60px;
+}
